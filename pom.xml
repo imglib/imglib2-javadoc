@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>net.imglib2</groupId>
+		<artifactId>pom-imglib2</artifactId>
+		<version>5.2.0</version>
+		<relativePath />
+	</parent>
+
+	<artifactId>imglib2-javadoc</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+
+	<name>ImgLib2 Javadocs</name>
+	<description>All the Javadocs for ImgLib2.</description>
+	<inceptionYear>2015</inceptionYear>
+
+	<scm>
+		<connection>scm:git:git://github.com/imglib/imglib2-javadoc</connection>
+		<developerConnection>scm:git:git@github.com:imagej/imglib2-javadoc</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/imagej/imglib2-javadoc</url>
+	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/imagej/imglib2-javadoc/issues</url>
+	</issueManagement>
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/ImgLib2-javadoc/</url>
+	</ciManagement>
+
+	<repositories>
+		<repository>
+			<id>imagej.public</id>
+			<url>http://maven.imagej.net/content/groups/public</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<!-- ImgLib2 - https://github.com/imglib/imglib2 -->
+		<dependency>
+			<groupId>net.imglib2</groupId>
+			<artifactId>imglib2</artifactId>
+		</dependency>
+
+		<!-- ImgLib2 Algorithms - https://github.com/imglib/imglib2-algorithm -->
+		<dependency>
+			<groupId>net.imglib2</groupId>
+			<artifactId>imglib2-algorithm</artifactId>
+		</dependency>
+
+		<!-- ImgLib2 Algorithms FFT - https://github.com/imglib/imglib2-algorithm-fft -->
+		<dependency>
+			<groupId>net.imglib2</groupId>
+			<artifactId>imglib2-algorithm-fft</artifactId>
+		</dependency>
+
+		<!-- ImgLib2 Algorithms GPL - https://github.com/imglib/imglib2-algorithm-gpl -->
+		<dependency>
+			<groupId>net.imglib2</groupId>
+			<artifactId>imglib2-algorithm-gpl</artifactId>
+		</dependency>
+
+		<!-- ImgLib2 IJ - https://github.com/imglib/imglib2-ij -->
+		<dependency>
+			<groupId>net.imglib2</groupId>
+			<artifactId>imglib2-ij</artifactId>
+		</dependency>
+
+		<!-- ImgLib2 RealTransform - https://github.com/imglib/imglib2-realtransform -->
+		<dependency>
+			<groupId>net.imglib2</groupId>
+			<artifactId>imglib2-realtransform</artifactId>
+		</dependency>
+
+		<!-- ImgLib2 ROI - https://github.com/imglib/imglib2-roi -->
+		<dependency>
+			<groupId>net.imglib2</groupId>
+			<artifactId>imglib2-roi</artifactId>
+		</dependency>
+
+		<!-- ImgLib2 Scripting - https://github.com/imglib/imglib2-script -->
+		<dependency>
+			<groupId>net.imglib2</groupId>
+			<artifactId>imglib2-script</artifactId>
+		</dependency>
+
+		<!-- ImgLib2 UI - https://github.com/imglib/imglib2-ui -->
+		<dependency>
+			<groupId>net.imglib2</groupId>
+			<artifactId>imglib2-ui</artifactId>
+		</dependency>
+	</dependencies>
+
+</project>
