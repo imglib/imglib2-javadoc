@@ -1,4 +1,4 @@
-![](http://jenkins.imagej.net/job/ImgLib2-javadoc/lastBuild/badge/icon)
+[![](http://jenkins.imagej.net/job/ImgLib2-javadoc/lastBuild/badge/icon)](http://jenkins.imagej.net/job/ImgLib2-javadoc/)
 
 This project aggregates the javadoc of ImgLib2 components.
 
