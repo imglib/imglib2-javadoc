@@ -1,3 +1,5 @@
+![](http://jenkins.imagej.net/job/ImgLib2-javadoc/lastBuild/badge/icon)
+
 This project aggregates the javadoc of ImgLib2 components.
 
 They are built and published to:
