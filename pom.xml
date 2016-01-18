@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>net.imglib2</groupId>
 		<artifactId>pom-imglib2</artifactId>
-		<version>5.2.0</version>
+		<version>RELEASE</version>
 		<relativePath />
 	</parent>
 
@@ -15,6 +15,18 @@
 	<name>ImgLib2 Javadocs</name>
 	<description>All the Javadocs for ImgLib2.</description>
 	<inceptionYear>2015</inceptionYear>
+
+	<properties>
+		<imglib2.version>RELEASE</imglib2.version>
+		<imglib2-algorithm.version>RELEASE</imglib2-algorithm.version>
+		<imglib2-algorithm-fft.version>RELEASE</imglib2-algorithm-fft.version>
+		<imglib2-algorithm-gpl.version>RELEASE</imglib2-algorithm-gpl.version>
+		<imglib2-ij.version>RELEASE</imglib2-ij.version>
+		<imglib2-realtransform.version>RELEASE</imglib2-realtransform.version>
+		<imglib2-roi.version>RELEASE</imglib2-roi.version>
+		<imglib2-script.version>RELEASE</imglib2-script.version>
+		<imglib2-ui.version>RELEASE</imglib2-ui.version>
+	</properties>
 
 	<scm>
 		<connection>scm:git:git://github.com/imglib/imglib2-javadoc</connection>
