@@ -3,30 +3,59 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>net.imglib2</groupId>
-		<artifactId>pom-imglib2</artifactId>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
 		<version>RELEASE</version>
 		<relativePath />
 	</parent>
 
+	<groupId>net.imglib2</groupId>
 	<artifactId>imglib2-javadoc</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
 	<name>ImgLib2 Javadocs</name>
 	<description>All the Javadocs for ImgLib2.</description>
+	<url>http://javadoc.imagej.net/ImgLib2/</url>
 	<inceptionYear>2015</inceptionYear>
+	<organization>
+		<name>ImgLib2</name>
+		<url>http://imglib2.net/</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>Simplified BSD License</name>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 
-	<properties>
-		<imglib2.version>RELEASE</imglib2.version>
-		<imglib2-algorithm.version>RELEASE</imglib2-algorithm.version>
-		<imglib2-algorithm-fft.version>RELEASE</imglib2-algorithm-fft.version>
-		<imglib2-algorithm-gpl.version>RELEASE</imglib2-algorithm-gpl.version>
-		<imglib2-ij.version>RELEASE</imglib2-ij.version>
-		<imglib2-realtransform.version>RELEASE</imglib2-realtransform.version>
-		<imglib2-roi.version>RELEASE</imglib2-roi.version>
-		<imglib2-script.version>RELEASE</imglib2-script.version>
-		<imglib2-ui.version>RELEASE</imglib2-ui.version>
-	</properties>
+	<developers>
+		<developer>
+			<id>ctrueden</id>
+			<name>Curtis Rueden</name>
+			<url>http://imagej.net/User:Rueden</url>
+			<roles>
+				<role>founder</role>
+				<role>lead</role>
+				<role>developer</role>
+				<role>debugger</role>
+				<role>reviewer</role>
+				<role>support</role>
+				<role>maintainer</role>
+			</roles>
+		</developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>None</name>
+		</contributor>
+	</contributors>
+
+	<mailingLists>
+		<mailingList>
+			<name>ImageJ Forum</name>
+			<archive>http://forum.imagej.net/</archive>
+		</mailingList>
+	</mailingLists>
 
 	<scm>
 		<connection>scm:git:git://github.com/imglib/imglib2-javadoc</connection>
@@ -42,6 +71,26 @@
 		<system>Jenkins</system>
 		<url>http://jenkins.imagej.net/job/ImgLib2-javadoc/</url>
 	</ciManagement>
+
+	<properties>
+		<license.licenseName>bsd_2</license.licenseName>
+		<license.copyrightOwners>Tobias Pietzsch, Stephan Preibisch, Stephan Saalfeld,
+John Bogovic, Albert Cardona, Barry DeZonia, Christian Dietz, Jan Funke,
+Aivar Grislis, Jonathan Hale, Grant Harris, Stefan Helfrich, Mark Hiner,
+Martin Horn, Steffen Jaensch, Lee Kamentsky, Larry Lindsey, Melissa Linkert,
+Mark Longair, Brian Northan, Nick Perry, Curtis Rueden, Johannes Schindelin,
+Jean-Yves Tinevez and Michael Zinsmaier.</license.copyrightOwners>
+		<license.projectName>ImgLib2: a general-purpose, multidimensional image processing library.</license.projectName>
+		<imglib2.version>RELEASE</imglib2.version>
+		<imglib2-algorithm.version>RELEASE</imglib2-algorithm.version>
+		<imglib2-algorithm-fft.version>RELEASE</imglib2-algorithm-fft.version>
+		<imglib2-algorithm-gpl.version>RELEASE</imglib2-algorithm-gpl.version>
+		<imglib2-ij.version>RELEASE</imglib2-ij.version>
+		<imglib2-realtransform.version>RELEASE</imglib2-realtransform.version>
+		<imglib2-roi.version>RELEASE</imglib2-roi.version>
+		<imglib2-script.version>RELEASE</imglib2-script.version>
+		<imglib2-ui.version>RELEASE</imglib2-ui.version>
+	</properties>
 
 	<repositories>
 		<repository>
@@ -106,4 +155,14 @@
 		</dependency>
 	</dependencies>
 
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<skipIfEmpty>false</skipIfEmpty>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
