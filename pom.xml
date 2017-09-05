@@ -15,7 +15,7 @@
 
 	<name>ImgLib2 Javadocs</name>
 	<description>All the Javadocs for ImgLib2.</description>
-	<url>http://javadoc.imagej.net/ImgLib2/</url>
+	<url>https://javadoc.scijava.org/ImgLib2/</url>
 	<inceptionYear>2015</inceptionYear>
 	<organization>
 		<name>ImgLib2</name>
@@ -68,8 +68,8 @@
 		<url>https://github.com/imagej/imglib2-javadoc/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/ImgLib2-javadoc/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/imglib/imglib2-javadoc/</url>
 	</ciManagement>
 
 	<properties>
