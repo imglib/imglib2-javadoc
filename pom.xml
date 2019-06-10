@@ -124,6 +124,12 @@ Jean-Yves Tinevez and Michael Zinsmaier.</license.copyrightOwners>
 			<artifactId>imglib2-algorithm-gpl</artifactId>
 		</dependency>
 
+		<!-- ImgLib2 Cache - https://github.com/imglib/imglib2-cache -->
+		<dependency>
+			<groupId>net.imglib2</groupId>
+			<artifactId>imglib2-cache</artifactId>
+		</dependency>
+
 		<!-- ImgLib2 IJ - https://github.com/imglib/imglib2-ij -->
 		<dependency>
 			<groupId>net.imglib2</groupId>
@@ -152,6 +158,12 @@ Jean-Yves Tinevez and Michael Zinsmaier.</license.copyrightOwners>
 		<dependency>
 			<groupId>net.imglib2</groupId>
 			<artifactId>imglib2-ui</artifactId>
+		</dependency>
+
+		<!-- ImgLib2 Unsafe - https://github.com/imglib/imglib2-unsafe -->
+		<dependency>
+			<groupId>net.imglib2</groupId>
+			<artifactId>imglib2-unsafe</artifactId>
 		</dependency>
 	</dependencies>
 
