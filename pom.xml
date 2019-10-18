@@ -73,6 +73,7 @@
 	</ciManagement>
 
 	<properties>
+		<automatic-module-name>net.imglib2.javadoc</automatic-module-name>
 		<license.licenseName>bsd_2</license.licenseName>
 		<license.copyrightOwners>Tobias Pietzsch, Stephan Preibisch, Stephan Saalfeld,
 John Bogovic, Albert Cardona, Barry DeZonia, Christian Dietz, Jan Funke,
