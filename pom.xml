@@ -86,11 +86,22 @@ Jean-Yves Tinevez and Michael Zinsmaier.</license.copyrightOwners>
 		<imglib2-algorithm.version>RELEASE</imglib2-algorithm.version>
 		<imglib2-algorithm-fft.version>RELEASE</imglib2-algorithm-fft.version>
 		<imglib2-algorithm-gpl.version>RELEASE</imglib2-algorithm-gpl.version>
+		<imglib2-cache.version>RELEASE</imglib2-cache.version>
 		<imglib2-ij.version>RELEASE</imglib2-ij.version>
 		<imglib2-realtransform.version>RELEASE</imglib2-realtransform.version>
 		<imglib2-roi.version>RELEASE</imglib2-roi.version>
 		<imglib2-script.version>RELEASE</imglib2-script.version>
 		<imglib2-ui.version>RELEASE</imglib2-ui.version>
+		<imglib2-unsafe.version>RELEASE</imglib2-unsafe.version>
+		<imglib2-label-multisets.version>RELEASE</imglib2-label-multisets.version>
+		<n5.version>RELEASE</n5.version>
+		<n5-aws-s3.version>RELEASE</n5-aws-s3.version>
+		<n5-blosc.version>RELEASE</n5-blosc.version>
+		<n5-google-cloud.version>RELEASE</n5-google-cloud.version>
+		<n5-hdf5.version>RELEASE</n5-hdf5.version>
+		<n5-imglib2.version>RELEASE</n5-imglib2.version>
+		<n5-viewer_fiji.version>RELEASE</n5-viewer_fiji.version>
+		<n5-zarr.version>RELEASE</n5-zarr.version>
 	</properties>
 
 	<repositories>
@@ -165,6 +176,60 @@ Jean-Yves Tinevez and Michael Zinsmaier.</license.copyrightOwners>
 		<dependency>
 			<groupId>net.imglib2</groupId>
 			<artifactId>imglib2-unsafe</artifactId>
+		</dependency>
+
+		<!-- ImgLib2 Label Multisets - https://github.com/saalfeldlab/imglib2-label-multisets -->
+		<dependency>
+			<groupId>net.imglib2</groupId>
+			<artifactId>imglib2-label-multisets</artifactId>
+		</dependency>
+
+		<!-- N5 - https://github.com/saalfeldlab/n5 -->
+		<dependency>
+			<groupId>org.janelia.saalfeldlab</groupId>
+			<artifactId>n5</artifactId>
+		</dependency>
+
+		<!-- N5 AWS S3 - https://github.com/saalfeldlab/n5-aws-s3 -->
+		<dependency>
+			<groupId>org.janelia.saalfeldlab</groupId>
+			<artifactId>n5-aws-s3</artifactId>
+		</dependency>
+
+		<!-- N5 Blosc - https://github.com/saalfeldlab/n5-blosc -->
+		<dependency>
+			<groupId>org.janelia.saalfeldlab</groupId>
+			<artifactId>n5-blosc</artifactId>
+		</dependency>
+
+		<!-- N5 Google Cloud - https://github.com/saalfeldlab/n5-google-cloud -->
+		<dependency>
+			<groupId>org.janelia.saalfeldlab</groupId>
+			<artifactId>n5-google-cloud</artifactId>
+		</dependency>
+
+		<!-- N5 HDF5 - https://github.com/saalfeldlab/n5-hdf5 -->
+		<dependency>
+			<groupId>org.janelia.saalfeldlab</groupId>
+			<artifactId>n5-hdf5</artifactId>
+		</dependency>
+
+		<!-- N5 ImgLib2 - https://github.com/saalfeldlab/n5-imglib2 -->
+		<dependency>
+			<groupId>org.janelia.saalfeldlab</groupId>
+			<artifactId>n5-imglib2</artifactId>
+		</dependency>
+
+		<!-- N5 Viewer - https://github.com/saalfeldlab/n5-viewer -->
+		<dependency>
+			<groupId>org.janelia.saalfeldlab</groupId>
+			<artifactId>n5-viewer_fiji</artifactId>
+		</dependency>
+
+		<!-- N5 Zarr - https://github.com/saalfeldlab/n5-zarr -->
+		<dependency>
+			<groupId>org.janelia.saalfeldlab</groupId>
+			<artifactId>n5-zarr</artifactId>
 		</dependency>
 	</dependencies>
 
